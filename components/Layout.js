@@ -9,6 +9,8 @@ const Layout = props => (
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <meta property="og:description" content="Meetup group and umbrella organization for Oslo-based JavaScript meetups" />
       <meta property="og:image" content="https://oslojs.no/static/images/logo-512.png" />
+      <meta property="og:image:width" content="512" />
+      <meta property="og:image:height" content="512" />
       <meta property="og:site_name" content="Oslo JS" />
       <meta property="og:title" content="Javascript meetup in Oslo" />
       <link rel="icon" type="image/png" sizes="32x32" href="/static/images/favicon-32x32.png" />
