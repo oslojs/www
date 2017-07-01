@@ -1,0 +1,36 @@
+{
+  "name": "oslojs-www",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Website for Oslojs.no",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/oslojs/www.git"
+  },
+  "engines": {
+    "node": ">=7.6"
+  },
+  "keywords": [
+    "website",
+    "oslojs"
+  ],
+  "author": "OsloJS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oslojs/www/issues"
+  },
+  "homepage": "https://github.com/oslojs/www#readme",
+  "dependencies": {
+    "next": "beta",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  }
+}
