@@ -19,6 +19,7 @@ const Logo = props =>
         bottom: 0;
         width: 100%;
         max-width: 1200px;
+        max-height: 120%;
       }
     `}</style>
   </svg>
